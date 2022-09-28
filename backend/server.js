@@ -39,6 +39,6 @@ const start = async(Port)=>{
        console.log(err) 
     }
 }
-const Port = process.env.Port || 8000
+const Port = process.env.PORT || 8000
 start(Port)
 
