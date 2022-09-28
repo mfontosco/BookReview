@@ -12,6 +12,9 @@
     "dev":"concurrently \"npm run server\" \"npm run client \" ",
     "heroku-build":"NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
+  "engines":{
+    "node":"16.x"
+    },
   "author": "Mfon",
   "license": "ISC",
   "dependencies": {
