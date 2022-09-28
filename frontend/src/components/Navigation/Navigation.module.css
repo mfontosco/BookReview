@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+.container div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+.container a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #FFF6BF;
+}
+.container a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-decoration-color: aquamarine;
+    text-transform: capitalize;
+
+}
