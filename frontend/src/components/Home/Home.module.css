@@ -21,7 +21,6 @@
 .container .content .image{
     background-image: url('../Images/book1.jpg');
     flex: 1;
-    height: 100%;
     width: 100%;
     border-radius: 30px;
     background-position: center;
