@@ -1,10 +1,9 @@
 import React from 'react'
-import Navigation from '../components/Navigation/Navigation'
+import PageNotFound from '../components/PageNotFound/PageNotFound'
 const NotFoundScreen = () => {
   return (
     <div>
-    <Navigation/>
-    NotFoundScreen
+    <PageNotFound/>
     </div>
   )
 }
