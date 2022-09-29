@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 5px;
 }
 .container .image img{
 border-radius: 50%;
