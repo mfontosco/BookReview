@@ -17,7 +17,7 @@ import {
 } from '../constants/BookConstants'
 import axios from 'axios'
 
-const baseUrl = "http://localhost:8000/api/v1/bookreview"
+const baseUrl = "https://bookreview-mern.herokuapp.com/api/v1/bookreview"
 
 const createBookReviewAtions = (title,author,Isbn)=>async(dispatch)=>{
 try {

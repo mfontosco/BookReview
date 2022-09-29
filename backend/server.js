@@ -6,7 +6,7 @@ import morgan from 'morgan'
 import connectDB from './config/db.js';
 import BookReviewRouter from './routes/BookReviewRoute.js'
 import path from 'path'
-const app =express()
+const app = express()
 
 app.use(express.json({limit:"50mb"}))
 app.use(cors())
