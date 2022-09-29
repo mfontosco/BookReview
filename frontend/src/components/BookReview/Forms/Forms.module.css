@@ -27,17 +27,19 @@ border-radius: 50%;
 .container .formContainer form{
 border: 1px solid #FFF6BF;
 width: 50%;
-height: 70%;
+height: 100%;
 color: white;
 display: flex;
 justify-content: center;
 flex-direction: column;
 border-radius: 20px;
+padding:10px;
 }
 .container .formContainer form div{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 .container .formContainer form div input{
 padding: 10px;
