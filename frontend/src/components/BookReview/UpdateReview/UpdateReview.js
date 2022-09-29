@@ -43,7 +43,7 @@ setIsbn(bookreview ? bookreview.Isbn :"")
   return (
     <div className={styles.container}>
     <Navigation/>
-    <div className={styles.image}><img src={image3} alt='' height='200px' width='200px'/></div>
+    <div className={styles.image}><img src={image3} alt='' height='160px' width='160px'/></div>
        <div className={styles.formContainer}>
        <form>
         <div>
